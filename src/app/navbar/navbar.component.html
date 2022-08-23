@@ -1,0 +1,38 @@
+<nav class="navbar navbar-dark navbar-expand fixed-top py-2" id="mynav">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse justify-content-md-center" id="navbarSupportedContent">
+
+      <a class="navbar-brand me-auto d-none d-sm-block" style="font-family: Kanit; font-size: 25px;" routerLink="">
+        <!-- <img src="https://i.hizliresim.com/ag0ui0n.png" width="30" height="30" alt="" class="navbar-logo me-1"> -->
+        EMOFİT
+      </a>
+      <a class="navbar-brand me-auto d-block d-sm-none" style="font-family: Kanit; font-size: 25px;" routerLink="">
+        EMOFİT
+      </a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item me-3">
+          <a class="nav-link  d-none d-md-block" aria-current="page" routerLink="home" style="font-family: Kanit;"><i class="fa-solid fa-house-user me-2"></i>Anasayfa</a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link d-none d-md-block" routerLink="calisma" style="font-family: Kanit;"><i class="fa-solid fa-dumbbell me-2"></i>Çalışma Şeklimiz</a>
+          <a class="nav-link d-block d-md-none" routerLink="calisma"><i class="fa-solid fa-dumbbell me-2"></i></a>
+        </li>
+        <li class="nav-item me-3">
+          <a class="nav-link d-none d-md-block" routerLink="price" style="font-family: Kanit;"><i class="fa-solid fa-money-bill-1-wave me-2"></i>Fiyat Al</a>
+          <a class="nav-link d-block d-md-none" routerLink="price"><i class="fa-solid fa-money-bill-1-wave me-2"></i></a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <a routerLink="login">
+        <button class="btn btn-outline-danger" type="submit">
+          <span class="d-none d-md-block" style="font-family: Kanit;"><i class="fa-solid fa-arrow-right-to-bracket me-2"></i>Giriş/Kayıt</span>
+          <i class="fa-solid fa-arrow-right-to-bracket d-block d-md-none"></i>
+          </button></a>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
