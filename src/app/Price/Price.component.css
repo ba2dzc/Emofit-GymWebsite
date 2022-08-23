@@ -16,6 +16,13 @@ hr{
     background-color: rgba(27, 27, 31, 0.925);
 }
 
+.ok{
+    color: green;
+}
+.x{
+    color: red;
+}
+
 ul{
     list-style-type: none;
     padding: 0;
