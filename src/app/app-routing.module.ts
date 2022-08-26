@@ -10,7 +10,7 @@ const routes: Routes = [
   {path:'price',component:PriceComponent},
   {path:'login',component:AuthComponent},
   {path:'home',component:HomeComponent},
-  {path:'',redirectTo:'home',pathMatch:"full"}
+  {path:'**',redirectTo:'home',pathMatch:"full"}
 ];
 
 @NgModule({
